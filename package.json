@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "rimraf dist && tsc && node dist/main",
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "^5.7.12",
+    "@mikro-orm/sqlite": "^5.7.12",
+    "typescript": "^5.1.6"
+  }
+}
